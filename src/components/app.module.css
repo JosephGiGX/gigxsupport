@@ -1,0 +1,39 @@
+.content {
+    background: #0A161C;
+    
+}
+
+.title {
+    color: #fff;
+    opacity: 1;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 514px;
+    width: 412px;
+    height: 47px;
+    font-family: Circular Std;
+    font-weight: normal;
+}
+
+.title h1 {
+    font-size: 34px;
+}
+
+.title h2 {
+    font-size: 24px;
+}
+
+.heading {
+    margin-top: 100px;
+    margin-left: 264px;
+    width: 258px;
+    height: 25px;
+    color: #E25A5A;
+    font-size: 20px;
+}
+
+.blockTeam {
+    float:left; 
+    width:100%; 
+  }
+

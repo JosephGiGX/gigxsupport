@@ -1,0 +1,14 @@
+.inputField {
+    margin-top: 100px;
+    margin-left: 380px;
+    width: 680px;
+    height: 70px;
+    background: #EFEFEF 0% 0% no-repeat padding-box;
+    border-radius: 12px;
+    opacity: 0.1;
+}
+
+.inputField::placeholder{
+    color: #fff !important;
+}
+
