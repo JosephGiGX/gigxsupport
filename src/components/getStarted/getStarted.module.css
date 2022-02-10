@@ -1,20 +1,16 @@
 .content {
-  /* margin-top: 482px;
-    margin-left: 844px; */
-  width: 332px;
-  height: 326px;
+  width: 100%;
+  max-width: 332px;
   background: #16242b 0% 0% no-repeat padding-box;
   border-radius: 15px;
   opacity: 1;
   display: inline-block;
-  /* border: 1px solid red; */
   padding: 50px 34px;
   vertical-align: middle;
+  object-fit: contain;
 }
 
 .title {
-  width: 143px;
-  height: 25px;
   font-family: Circular Std;
   text-align: left;
   font-size: normal;
@@ -24,8 +20,6 @@
 }
 
 .description {
-  width: 262px;
-  height: 60px;
   font-family: Circular Std;
   text-align: left;
   font-size: 16px;
@@ -38,12 +32,9 @@
 }
 
 .link {
-  margin-top: 100px;
-  height: 20px;
+  margin-top: 39px;
   font-family: Circular Std;
-  /* text-align: left; */
   font: normal;
-  letter-spacing: 0px;
   color: #e25a5a;
   opacity: 1;
 }
@@ -57,4 +48,6 @@
 
 .label {
   margin-left: 10px;
+  border-bottom: 1px dashed #e25a5a;
+  font-size: 16px;
 }
