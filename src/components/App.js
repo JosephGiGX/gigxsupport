@@ -3,10 +3,10 @@ import { Helmet } from "react-helmet"
 import { BrowserRouter } from "react-router-dom"
 import Navbar from "./navbar/navbar"
 import SearchBar from "./searchBar/searchBar"
-import AccordionFunc from "./accordion/accordion"
 import GettingStarted from "./getStarted/getStarted"
 
 import styles from "./app.module.css"
+import Accordion from "./accord/Accordion"
 
 const items = [
   {
@@ -49,7 +49,7 @@ const App = () => {
           <h1>Welcome to our support</h1>
           <h3>Search on any topic or you can browse by category</h3>
         </div>
-        <div className="search-bar">
+        <div className={styles.searchContainer}>
           <SearchBar />
         </div>
 
@@ -58,7 +58,11 @@ const App = () => {
             <div className={styles.heading}>
               <h3>Frequently Asked Questions</h3>
             </div>
-            <AccordionFunc items={items} />
+            {items.map((item) => (
+              <>
+                <Accordion title={item.title} content={item.content} />
+              </>
+            ))}
           </div>
 
           <div className={styles.gettingStarted}>
