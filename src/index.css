@@ -1,0 +1,18 @@
+@import url("./fonts/CircularStd-Book.otf");
+
+@font-face {
+  font-family: "CircularStd";
+  src: url("./fonts/CircularStd-Book.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "CircularStd";
+  font-weight: 900;
+  src: url("./fonts/CircularStd-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "CircularStd";
+  font-weight: 900;
+  src: url("./fonts/CircularStd-Black.otf") format("opentype");
+}

@@ -8,10 +8,11 @@
   padding: 50px 34px;
   vertical-align: middle;
   object-fit: contain;
+  font-family: "Cicular Std";
 }
 
 .title {
-  font-family: Circular Std;
+  font-family: "Circular Std";
   text-align: left;
   font-size: normal;
   color: #ffffff;
@@ -20,7 +21,7 @@
 }
 
 .description {
-  font-family: Circular Std;
+  font-family: "Circular Std";
   text-align: left;
   font-size: 16px;
   letter-spacing: 0px;
@@ -33,7 +34,7 @@
 
 .link {
   margin-top: 39px;
-  font-family: Circular Std;
+  font-family: "Circular Std";
   font: normal;
   color: #e25a5a;
   opacity: 1;
